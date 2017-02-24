@@ -1,4 +1,4 @@
-FROM nginx-centos7
+FROM nginx:alpine
 COPY ./webapp /usr/share/nginx/html
 COPY nginx-config.conf /etc/nginx/nginx.conf
 
