@@ -1,6 +1,6 @@
 {
-  "realm": "ad-keycloak-test",
-  "auth-server-url": "https://test-keycloak-project.apps.nmdev.nmfco.com/auth",
+  "realm": "cdk-keycloak-test",
+  "auth-server-url": "https://keycloak-service-keycloak-cluster.rhel-cdk.10.1.2.2.xip.io/auth",
   "ssl-required": "external",
   "resource": "nginx-app",
   "public-client": true
